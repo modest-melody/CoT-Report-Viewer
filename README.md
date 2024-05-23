@@ -61,9 +61,13 @@ To run this application locally, follow these steps:
 2. Install necessary R packages. Run the following commands in your R console:
 
 ```
+R # this starts interactive R shell
+
 required_packages <- c("tidyverse", "readxl", "data.table", "vroom", "gt", "shiny")
 
 install.packages(required_packages)
+
+q() # exits R shell
 ```
 
 ***Currently supports R 4.3.3***
