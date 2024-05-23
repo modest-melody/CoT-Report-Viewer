@@ -16,7 +16,7 @@ This Shiny application provides an interactive way to view the weekly Commitment
 
 There are four main reports:
 
-1. Legacy -- The Legacy reports are broken down by exchange. These reports have a futures only report and a combined futures and options report. Legacy reports break down the reportable open interest positions into two classifications: non-commercial and commercial traders.
+1. Legacy (**<ins>THIS APP USES DATA FROM THIS REPORT</ins>**) -- The Legacy reports are broken down by exchange. These reports have a futures only report and a combined futures and options report. Legacy reports break down the reportable open interest positions into two classifications: non-commercial and commercial traders.
 
 2. Supplemental -- The Supplemental report includes 13 select agricultural commodity contracts for combined futures and options positions. Supplemental reports break down the reportable open interest positions into three trader classifications: non-commercial, commercial, and index traders.
 
@@ -70,24 +70,20 @@ install.packages(required_packages)
 
 ## Running the App
 
-Clone the repository and run the app through the R console or Windows terminal.
+Clone the repository and run the app through your terminal after installing above requirements.
 
 
-#### From R Console
-
-```
-runApp('non_commercial_app.R')
-```
-
-
-### From Windows terminal
+### From Terminal
 
 ```
-cd path/to/app
+git clone https://github.com/modest-melody/CoT-Report-Viewer.git
+
+cd CoT-Report-Viewer/Legacy-NonCom
 
 R -e "shiny::runApp('non_commercial_app.R')"
 ```
 
+Bring the server and port # to your browser.
 
 ## App Layout
 
