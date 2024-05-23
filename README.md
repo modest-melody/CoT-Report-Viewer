@@ -60,6 +60,8 @@ To run this application locally, follow these steps:
 1. Install R from the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org).
 2. Install necessary R packages. Run the following commands in your R console:
 
+#### From Terminal
+
 ```
 R # this starts interactive R shell
 
@@ -77,7 +79,7 @@ q() # exits R shell
 Clone the repository and run the app through your terminal after installing above requirements.
 
 
-### From Terminal
+#### From Terminal
 
 ```
 git clone https://github.com/modest-melody/CoT-Report-Viewer.git
